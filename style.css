@@ -1,0 +1,52 @@
+body {
+    background-color: #39a9cb;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#photoNYC {
+    width: 400px;
+}
+
+.btn {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    border: none;
+    background-color: #ffeda3;
+    color: #232323;
+}
+
+@media all and (max-width: 600px) {
+
+    #container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image {
+        width: 200px;
+    }
+
+    .btn {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .image {
+        width: 150px;
+    } 
+
+    .btn {
+        font-size: 20px;
+    } 
+}
